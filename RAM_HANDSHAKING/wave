@@ -1,0 +1,28 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate /tb_memory_handshkae/clk
+add wave -noupdate /tb_memory_handshkae/rst
+add wave -noupdate /tb_memory_handshkae/wr
+add wave -noupdate /tb_memory_handshkae/valid
+add wave -noupdate /tb_memory_handshkae/ready
+add wave -noupdate /tb_memory_handshkae/addr
+add wave -noupdate /tb_memory_handshkae/indata
+add wave -noupdate /tb_memory_handshkae/outdata
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {75 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 221
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ps
+update
+WaveRestoreZoom {10 ps} {138 ps}
