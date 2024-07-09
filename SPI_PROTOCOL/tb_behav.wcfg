@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="127.001 ns"></ZoomEndTime>
+      <Cursor1Time time="19.046 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="137"></NameColumnWidth>
+      <ValueColumnWidth column_width="129"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/tb/wb_clk_in" type="logic">
+      <obj_property name="ElementShortName">wb_clk_in</obj_property>
+      <obj_property name="ObjectShortName">wb_clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_rst_in" type="logic">
+      <obj_property name="ElementShortName">wb_rst_in</obj_property>
+      <obj_property name="ObjectShortName">wb_rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_we_in" type="logic">
+      <obj_property name="ElementShortName">wb_we_in</obj_property>
+      <obj_property name="ObjectShortName">wb_we_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_stb_in" type="logic">
+      <obj_property name="ElementShortName">wb_stb_in</obj_property>
+      <obj_property name="ObjectShortName">wb_stb_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_cyc_in" type="logic">
+      <obj_property name="ElementShortName">wb_cyc_in</obj_property>
+      <obj_property name="ObjectShortName">wb_cyc_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/miso" type="logic">
+      <obj_property name="ElementShortName">miso</obj_property>
+      <obj_property name="ObjectShortName">miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_adr_in" type="array">
+      <obj_property name="ElementShortName">wb_adr_in[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_adr_in[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_dat_in" type="array">
+      <obj_property name="ElementShortName">wb_dat_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_sel_in" type="array">
+      <obj_property name="ElementShortName">wb_sel_in[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_sel_in[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_dat_o" type="array">
+      <obj_property name="ElementShortName">wb_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_ack_out" type="logic">
+      <obj_property name="ElementShortName">wb_ack_out</obj_property>
+      <obj_property name="ObjectShortName">wb_ack_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_int_o" type="logic">
+      <obj_property name="ElementShortName">wb_int_o</obj_property>
+      <obj_property name="ObjectShortName">wb_int_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/sclk_out" type="logic">
+      <obj_property name="ElementShortName">sclk_out</obj_property>
+      <obj_property name="ObjectShortName">sclk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/ss_pad_o" type="array">
+      <obj_property name="ElementShortName">ss_pad_o[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ss_pad_o[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/wb_err_in" type="logic">
+      <obj_property name="ElementShortName">wb_err_in</obj_property>
+      <obj_property name="ObjectShortName">wb_err_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/T" type="array">
+      <obj_property name="ElementShortName">T[31:0]</obj_property>
+      <obj_property name="ObjectShortName">T[31:0]</obj_property>
+   </wvobject>
+</wave_config>
