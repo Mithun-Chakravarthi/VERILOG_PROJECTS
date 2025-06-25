@@ -1,0 +1,13 @@
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.mips_32_tb(fast)
+# Loading work.pipe_MIPS32(fast)
+run -all
+# R0  -  0
+# R1  - 10
+# R2  - 20
+# R3  - 25
+# R4  - 30
+# R5  - 55
+# ** Note: $finish    : C:/Users/chakr/Desktop/MIPS_32/mips_32_tb.v(40)
+#    Time: 300 ns  Iteration: 0  Instance: /mips_32_tb
+# 1
