@@ -1,5 +1,4 @@
-`timescale 1ns/1ns
-`include "ddr4_bank_sel_dut.v"
+
 module DDR4_Controller_tb;
 
 // Testbench signals
@@ -101,4 +100,3 @@ end
 
 
 endmodule
-
